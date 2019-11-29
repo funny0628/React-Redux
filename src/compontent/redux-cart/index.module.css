@@ -1,0 +1,38 @@
+.title {
+    height: 200px;
+    font-size: 100px;
+    font-weight: 900;
+    background-color: #ff69b4;
+    color: #fff;
+    margin: 0;
+}
+
+.title p {
+    font-size: 20px;
+}
+
+.indexContainer ul{
+    margin:0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.indexContainer ul li {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    margin: 10px;
+    text-align: center;
+}
+
+.indexContainer ul li p{
+    margin: 0;
+}
+
+.indexContainer ul li img {
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 10px auto 0;
+}

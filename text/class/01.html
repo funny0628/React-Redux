@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class Animal{
+            constructor(name,age,hi){
+                this.name = name
+                this.age = age
+            }
+            hi = "你好"
+            sayhi(){
+                console.log('打招呼啊');
+            }
+            static aa ='动物类'
+            static fn(){
+                console.log('静态的方法');
+            }
+        }
+
+        const a1  =new Animal('小明',12);
+        console.log(a1);
+        a1.sayhi();
+        console.log(Animal.aa);
+        Animal.fn();
+        
+    </script>
+</body>
+
+</html>
